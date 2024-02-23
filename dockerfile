@@ -1,3 +1,3 @@
 FROM centos:7
 
-ARG
+ARG USER_NAME
