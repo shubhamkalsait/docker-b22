@@ -2,4 +2,4 @@ FROM centos:7
 LABEL Author="Shubham Kalsait"
 
 RUN yum install java-11-openjdk -y
-ADD SRC DEST
+ADD https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.99/bin/apache-tomcat-8.5.99.tar.gz DEST
