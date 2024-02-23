@@ -11,4 +11,4 @@ WORKDIR /opt/apache-tomcat-8.5.99
 COPY student.war webapps/student.war
 
 # CMD bin/catalina.sh run
-CMD [""]
+CMD ["bin/catalina.sh", "run"]
