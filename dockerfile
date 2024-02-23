@@ -7,4 +7,4 @@ ENV DB_PASS="redhat"
 RUN echo 'DB USER is $USER_NAME'
 RUN echo 'DB password is $DB_PASS'
 
-CMD []
+CMD ['/bin/bash']
