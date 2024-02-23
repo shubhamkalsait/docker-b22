@@ -1,3 +1,3 @@
 # INSTRUCTION ARG
 
-FROM 
+FROM centos:7
