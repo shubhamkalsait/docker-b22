@@ -4,4 +4,4 @@ ARG USER_NAME
 
 ENV DB_PASS="redhat"
 
-RUN echo 'DB USER is'
+RUN echo 'DB USER is $USER_NAME '
