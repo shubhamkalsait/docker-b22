@@ -14,4 +14,4 @@ EXPOSE 8080
 
 # CMD bin/catalina.sh run
 CMD ["bin/catalina.sh", "run"]
-ENTRYPOINT [ "executable" ]
+ENTRYPOINT [ "bin/catalina.sh" ]
