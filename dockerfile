@@ -2,4 +2,4 @@
 
 FROM centos:7
 
-LA
+LABEL key="value"
