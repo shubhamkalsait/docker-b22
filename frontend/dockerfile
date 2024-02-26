@@ -7,7 +7,7 @@ LABEL developer="shubham kalsait"
 RUN yum install httpd -y 
 COPY index.html /var/www/html/index.html
 RUN chmod 644 /var/www/html/index.html
-
+RUN chmod -R 755 /var/www/html
 
 EXPOSE 80
 
