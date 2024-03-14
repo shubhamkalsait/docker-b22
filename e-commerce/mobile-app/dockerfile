@@ -3,4 +3,5 @@ RUN yum install httpd -y
 RUN mkdir -p /var/www/html/mobile
 COPY index.html /var/www/html/mobile/index.html
 EXPOSE 80
-ENTRYPOINT [ "executable" ]
+ENTRYPOINT [ "httpd" ]
+CMD [ "-DFOREGROUND" ]
