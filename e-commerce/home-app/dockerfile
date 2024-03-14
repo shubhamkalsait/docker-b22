@@ -5,4 +5,4 @@ ENTRYPOINT [ "httpd" ]
 CMD [ "-DFOREGROUND" ]
 
 
-systemctl 
+systemctl start/stop/
