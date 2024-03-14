@@ -1,5 +1,6 @@
 FROM centos:7
 RUN yum install httpd -y
+COPY 
 EXPOSE 80
 ENTRYPOINT [ "httpd" ]
 CMD [ "-DFOREGROUND" ]
