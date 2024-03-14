@@ -3,9 +3,3 @@ RUN yum install httpd -y
 EXPOSE 80
 ENTRYPOINT [ "httpd" ]
 CMD [ "-DFOREGROUND" ]
-
-
-systemctl start 
-nginx
-
-docker run myimage nginx
