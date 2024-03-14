@@ -6,4 +6,6 @@ CMD [ "-DFOREGROUND" ]
 
 
 systemctl start 
-httpd
+nginx
+
+docker run myimage nginx
